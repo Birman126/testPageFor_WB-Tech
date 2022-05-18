@@ -1,0 +1,260 @@
+* {
+  /* border: blue solid 1px; */
+  /* max-width: 1440px; */
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Montserrat Regular";
+  src: url("\Template\Montserrat Regular.ttf");
+  font-family: MotserratBold;
+  src: url("\Template\MotserratBold.ttf");
+  font-family: Roboto;
+  src: url("\Template\Roboto");
+}
+
+html {
+  max-width: 1600px;
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+    margin: 0px;
+    padding: 0px;
+}
+
+.body {
+  width: 1600px;
+  height: 1200px;
+  margin: 0px;
+  padding: 0px;
+  background: #DBEEEE;
+
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+
+  width: 1600px;
+  height: 75px;
+}
+
+.head-logo {
+  height: 45px;
+  width: 219px;
+  left: 0px;
+  top: 3px;
+  border-radius: 0px;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 30px;
+  background-image: url("images/ease.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-attachment: initial;
+}
+
+.head-nav {
+  width: 700px;
+  margin-left: 900px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.head-box-nav-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: SF Compact Display;
+  font-size: 21px;
+  height: 28px;
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.055em;
+  text-align: left;
+  color: #3D9090;
+
+}
+
+.main-page-text {
+  height: 292px;
+  width: 599px;
+  font-family: SF Compact Display;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 32px;
+  letter-spacing: 0.055em;
+  text-align: left;
+  margin-left: 36px;
+  margin-top: 91px;
+}
+
+.hr {
+  position: absolute;
+  width: 714px;
+  height: 1px;
+  left: 0px;
+  top: 538px;
+
+  background: #c4c4c4;
+}
+
+.main-page-container {
+  position: absolute;
+  border-top: #c4c4c4 1px solid;
+  margin-top: 80px;
+  width: 714px;
+  height: 661px;
+}
+
+.main-page-circle-bg {
+  position: absolute;
+  height: 462px;
+  width: 462px;
+  border-radius: 50%;
+  margin-top: 25px;
+  margin-left: -57px;
+  background: #E4D7B9;
+
+}
+
+.main-page-option {
+  width: 327px;
+  height: 185px;
+  margin-top: 133px;
+  margin-left: 96px;
+}
+
+.main-page-option-box {
+  font-family: SF Compact Display;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.055em;
+  text-align: left;
+
+  font-family: SF Compact Display;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.055em;
+  text-align: left;
+}
+
+.main-page-lamp_1 {
+  width: 158px;
+  height: 580px;
+  position: absolute;
+
+  margin-left: 294px;
+  background-image: url("images/Lamp - 1-2.png");
+}
+.main-page-selection-lamp {
+  width: 178px;
+  height: 554px;
+  position: absolute;
+  margin-left: 536px;
+  background: #bddddd;
+  border-radius: 20px 20px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 7px;
+  align-items: center;
+}
+
+.main-page-selection-lamp-box {
+  height: 131px;
+  width: 133px;
+  border-radius: 14px;
+  margin: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+.main-page-selection-lamp-box_1 {
+    /* background-color: white; */
+    background-image: url("images/Lamp - 5.png");
+}
+
+.main-page-selection-lamp-box_2 {
+    background-image: url("images/Lamp - 6.png");
+}
+
+.main-page-selection-lamp-box_3 {
+    background-image: url("images/Lamp - 7.png");
+}
+
+.main-page-selection-light {
+  display: flex;
+  width: 178px;
+  height: 76px;
+  margin-top: 23px;
+}
+
+.main-page-selection-light-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 76px;
+  width: 94px;
+}
+
+.main-page-selection-light-box_bright {
+  background: white;
+}
+
+.main-page-selection-light-box_dark {
+  background: #94a6a6;
+}
+
+.main-page-selection-light-box-img {
+  width: 35px;
+  height: 35px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main-page-selection-light-box-img_1 {
+  background-image: url("images/icon_light.svg");
+  
+}
+
+.main-page-selection-light-box-img_2 {
+  background-image: url("images/icon_dark.svg");
+}
+
+.main-page-img-example {
+    width: 867px;
+    height: 1087px;
+    position: absolute;
+    margin-left: 702px;
+    margin-top: -390px;
+    border-radius: 20px;
+    background-image: url("images/IMG - 1.png");
+    background-repeat: no-repeat;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+}
+
+.main-page-img-example-box {
+    width: 98px;
+    height: 360px;
+    margin-left: 216px ;
+}
+
+.main-page-img-example-box-1 {
+    background-image: url("images/Lamp - 1 M.png");
+}
+
+@media screen and (max-width: 800px) {
+}
