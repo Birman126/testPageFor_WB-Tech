@@ -23,8 +23,8 @@ html {
 }
 
 header {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .body {
@@ -32,8 +32,7 @@ header {
   height: 1200px;
   margin: 0px;
   padding: 0px;
-  background: #DBEEEE;
-
+  background: #dbeeee;
 }
 
 header {
@@ -80,8 +79,7 @@ header {
   line-height: 28px;
   letter-spacing: 0.055em;
   text-align: left;
-  color: #3D9090;
-
+  color: #3d9090;
 }
 
 .main-page-text {
@@ -122,8 +120,7 @@ header {
   border-radius: 50%;
   margin-top: 25px;
   margin-left: -57px;
-  background: #E4D7B9;
-
+  background: #e4d7b9;
 }
 
 .main-page-option {
@@ -153,10 +150,18 @@ header {
   width: 158px;
   height: 580px;
   position: absolute;
-
   margin-left: 294px;
   background-image: url("images/Lamp - 1-2.png");
 }
+
+.main-page-lamp_3 {
+  width: 251px;
+  height: 540px;
+  position: absolute;
+  margin-left: 231px;
+  background-image: url("images/Lamp - 2-2.png");
+}
+
 .main-page-selection-lamp {
   width: 178px;
   height: 554px;
@@ -179,19 +184,29 @@ header {
   background-repeat: no-repeat;
 }
 
+.main-page-selection-lamp-box_white {
+  background-color: rgba(255, 255, 255, 0.5);
+  
+  z-index: 10;
+}
 
+.main-page-selection-lamp-box_grey {
+  background-color: rgba(255, 255, 255, 0.25);
+  
+  z-index: 1;
+}
 
 .main-page-selection-lamp-box_1 {
-    /* background-color: white; */
-    background-image: url("images/Lamp - 5.png");
+  /* background-color: white; */
+  background-image: url("images/Lamp - 5.png");
 }
 
 .main-page-selection-lamp-box_2 {
-    background-image: url("images/Lamp - 6.png");
+  background-image: url("images/Lamp - 6.png");
 }
 
 .main-page-selection-lamp-box_3 {
-    background-image: url("images/Lamp - 7.png");
+  background-image: url("images/Lamp - 7.png");
 }
 
 .main-page-selection-light {
@@ -226,7 +241,6 @@ header {
 
 .main-page-selection-light-box-img_1 {
   background-image: url("images/icon_light.svg");
-  
 }
 
 .main-page-selection-light-box-img_2 {
@@ -234,26 +248,44 @@ header {
 }
 
 .main-page-img-example {
-    width: 867px;
-    height: 1087px;
-    position: absolute;
-    margin-left: 702px;
-    margin-top: -390px;
-    border-radius: 20px;
-    background-image: url("images/IMG - 1.png");
-    background-repeat: no-repeat;
-    box-shadow: 0px 4px 4px 0px #00000040;
+  width: 867px;
+  height: 1087px;
+  position: absolute;
+  margin-left: 702px;
+  margin-top: -390px;
+  border-radius: 20px;
 
+  background-repeat: no-repeat;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.main-page-img-example_light {
+  background-image: url("images/IMG - 1.png");
+}
+
+.main-page-img-example_dark {
+  background-image: url("images/IMG - 2.png");
 }
 
 .main-page-img-example-box {
-    width: 98px;
-    height: 360px;
-    margin-left: 216px ;
 }
 
 .main-page-img-example-box-1 {
-    background-image: url("images/Lamp - 1 M.png");
+  width: 98px;
+  height: 360px;
+  margin-left: 216px;
+  background-image: url("images/Lamp - 1 M.png");
+}
+
+.main-page-img-example-box-2 {
+  background-image: url("images/Lamp - 2 M.png");
+}
+
+.main-page-img-example-box-3 {
+  width: 147px;
+  height: 216px;
+  margin-left: 211px;
+  background-image: url("images/Lamp - 3 M.png");
 }
 
 @media screen and (max-width: 800px) {
